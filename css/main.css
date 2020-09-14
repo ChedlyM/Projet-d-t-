@@ -126,7 +126,7 @@ textarea:-ms-input-placeholder { color: #adadad;}
 button {
 	outline: none !important;
 	border: none;
-	background: transparent;
+	background: #252422;
 }
 
 button:hover {
@@ -143,7 +143,7 @@ iframe {
 .txt1 {
   font-family: Poppins-Regular;
   font-size: 13px;
-  color: #666666;
+  color: white;
   line-height: 1.5;
 }
 
@@ -174,12 +174,12 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #f2f2f2;  
+  background: #252422;  
 }
 
 .wrap-login100 {
   width: 390px;
-  background: #fff;
+  background: #EB5E28;
   border-radius: 10px;
   overflow: hidden;
   padding: 77px 55px 33px 55px;
@@ -203,7 +203,7 @@ iframe {
   display: block;
   font-family: Poppins-Bold;
   font-size: 30px;
-  color: #333333;
+  color: white;
   line-height: 1.2;
   text-align: center;
 }
@@ -259,17 +259,13 @@ iframe {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 
-  background: #6a7dfe;
-  background: -webkit-linear-gradient(left, #21d4fd, #b721ff);
-  background: -o-linear-gradient(left, #21d4fd, #b721ff);
-  background: -moz-linear-gradient(left, #21d4fd, #b721ff);
-  background: linear-gradient(left, #21d4fd, #b721ff);
+  background: #252422
 }
 
 .focus-input100::after {
   font-family: Poppins-Regular;
   font-size: 15px;
-  color: #999999;
+  color: white;
   line-height: 1.2;
 
   content: attr(data-placeholder);
@@ -305,7 +301,7 @@ iframe {
 /*---------------------------------------------*/
 .btn-show-pass {
   font-size: 15px;
-  color: #999999;
+  color: white;
 
   display: -webkit-box;
   display: -webkit-flex;
